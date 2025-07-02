@@ -112,7 +112,10 @@ const AuthForm = ({ type }: { type: FormType }) => {
         </div>
 
         <h3>Practice job interviews with AI</h3>
-
+{/* Bonus Tailwind CSS Check */}
+<div className="bg-green-500 text-white p-4 rounded-md text-xl text-center">
+  ✅ Tailwind is working on Vercel!
+</div>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="w-full space-y-6 mt-4 form">
             {!isSignIn && (
