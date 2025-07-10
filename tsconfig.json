@@ -1,3 +1,8 @@
+
+
+
+
+
 {
   "compilerOptions": {
     "target": "ES2017",
@@ -20,8 +25,14 @@
     ],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+
+  "typeRoots": ["./types", "./node_modules/@types"]
   },
+  
+  
+
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "tailwind.config.js"],
   "exclude": ["node_modules"]
 }
+
